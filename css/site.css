@@ -1,0 +1,30 @@
+h1 {
+  color: navy;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.ol_li_class {
+  color: green;
+}
+
+.ol_li_class a {
+  color: yellow;
+}
+
+.ul_li_class>a {
+  color: red;
+}
+#li_lab4 {
+  color: orange;
+}
+
+#a_lab4 {
+  color: purple;
+}
+
+#ul_li_lab5>a {
+  color: yellow
+}
