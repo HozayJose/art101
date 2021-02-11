@@ -1,10 +1,4 @@
-h1 {
-  color: navy;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 100px;
-  font-weight: bold;
-}
+
 
 .ol_li_class {
   color: green;
@@ -27,4 +21,27 @@ h1 {
 
 #ul_li_lab5>a {
   color: yellow
+}
+h1 {
+  color: #66fcf1;
+  font-size: 300%;
+  text-align: center;
+  font-style: italic;
+}
+
+p {
+  font-family: Arial;
+  text-align: center;
+  color: #c5c6c7;
+  overflow-wrap: break-word;
+}
+
+#content {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 120%;
+  background-color: #0b0c10;
+  border: solid 25px #45a29e;
+  border-style: inset;
+  padding: 200px;
 }
