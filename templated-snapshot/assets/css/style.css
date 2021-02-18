@@ -1,0 +1,13 @@
+ul.actions li {
+  background-color: red;
+}
+
+div.media {
+  border: 3px dashed blue;
+}
+
+div.gallery .special {
+  color: green;
+}
+
+{color: magenta}
