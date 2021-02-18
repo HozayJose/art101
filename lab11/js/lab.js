@@ -28,3 +28,34 @@ $("#probtn").click(function() {
 $("#resbtn").click(function() {
   resdiv.toggleClass("special");
 })
+
+btndiv = $("#buttons");
+
+btndiv.append("<button class=btn id=colorbtn1>CLICK ME!</button>");
+btndiv.append("<button class=btn id=colorbtn2>NO, CLICK ME!</button>");
+
+$("#colorbtn1").click(function() {
+  // grabs 3 numbers 0-255
+  var color = [number(), number(), number()].join(",");
+  // changes button back
+  $("#colorbtn1").css("border-color", "#66fcf1");
+  $("#colorbtn1").css("color", "#66fcf1");
+  // changes other button
+  $("#colorbtn2").css("border-color", "rgb(" + color + ")");
+  $("#colorbtn2").css("color", "rgb(" + color + ")");
+})
+
+$("#colorbtn2").click(function() {
+  // grab 3 numbers 0-255
+  var color = [number(), number(), number()].join(",");
+  // changes button back
+  $("#colorbtn2").css("border-color", "#66fcf1");
+  $("#colorbtn2").css("color", "#66fcf1");
+  // changes other button
+  $("#colorbtn1").css("border-color", "rgb(" + color + ")");
+  $("#colorbtn1").css("color", "rgb(" + color + ")");
+})
+
+function number() {
+  return Math.floor(Math.random() * Math.floor(256));
+}
