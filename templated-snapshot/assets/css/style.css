@@ -10,4 +10,11 @@ div.gallery .special {
   color: green;
 }
 
-{color: magenta}
+.info {
+  font-size: 2em;
+}
+
+.color_me {
+  color: green;
+  background-color: yellow;
+}
