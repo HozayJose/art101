@@ -13,3 +13,7 @@
   border: solid 3px black;
   float: left;
 }
+
+#input_text {
+  border: 10px gray solid;
+}
